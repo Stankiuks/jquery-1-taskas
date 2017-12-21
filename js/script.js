@@ -56,9 +56,7 @@ $('document').ready(function () {
     });
 
     $('.task3 .yellow-ball').on('click', function () {
-        var value = parseInt($('.task3 .red-ball, task3 .green-ball').text());
-        var newValue = 0;
-        var yellow = newValue;
+        $('.task3 .red-ball, .task3 .green-ball').text(0);
     });
 
 
