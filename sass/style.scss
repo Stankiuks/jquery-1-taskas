@@ -1,0 +1,27 @@
+$red-color: #ff0000;
+$white: #ffffff;
+$green: #008000;
+
+.ball{
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $white;
+  font-size: 36px;
+  font-weight: 700;
+}
+.red-ball{
+    background-color: $red-color;
+}
+
+.green-ball{
+  background-color: $green;
+}
+
+.task2{
+  display: flex;
+  justify-content: space-around;
+}
