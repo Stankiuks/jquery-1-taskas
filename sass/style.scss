@@ -1,6 +1,7 @@
 $red-color: #ff0000;
 $white: #ffffff;
 $green: #008000;
+$yellow: #ffff00;
 
 .ball{
   width: 400px;
@@ -24,4 +25,13 @@ $green: #008000;
 .task2{
   display: flex;
   justify-content: space-around;
+}
+
+.task3{
+  display: flex;
+  justify-content: space-around;
+}
+
+.yellow-ball{
+  background-color: $yellow;
 }

@@ -42,4 +42,25 @@ $('document').ready(function () {
 
         addedGreenValue = false;
     });
+
+    $('.task3 .red-ball').on('click', function () {
+        var value = parseInt ($(this).text());
+        var newValue = value + 1;
+        $(this).text(newValue);
+    });
+
+    $('.task3 .green-ball').on('click', function () {
+        var value = parseInt ($(this).text());
+        var newValue = value + 1;
+        $(this).text(newValue);
+    });
+
+    $('.task3 .yellow-ball').on('click', function () {
+        var value = parseInt($('.task3 .red-ball, task3 .green-ball').text());
+        var newValue = 0;
+        var yellow = newValue;
+    });
+
+
 });
+

@@ -1,4 +1,4 @@
-/* line 5, /home/evaldas/Projektai PHP Storm/javascript/jquery/sass/style.scss */
+/* line 6, /home/evaldas/Projektai PHP Storm/javascript/jquery/sass/style.scss */
 .ball {
   width: 400px;
   height: 400px;
@@ -11,20 +11,31 @@
   font-weight: 700;
 }
 
-/* line 16, /home/evaldas/Projektai PHP Storm/javascript/jquery/sass/style.scss */
+/* line 17, /home/evaldas/Projektai PHP Storm/javascript/jquery/sass/style.scss */
 .red-ball {
   background-color: #ff0000;
 }
 
-/* line 20, /home/evaldas/Projektai PHP Storm/javascript/jquery/sass/style.scss */
+/* line 21, /home/evaldas/Projektai PHP Storm/javascript/jquery/sass/style.scss */
 .green-ball {
   background-color: #008000;
 }
 
-/* line 24, /home/evaldas/Projektai PHP Storm/javascript/jquery/sass/style.scss */
+/* line 25, /home/evaldas/Projektai PHP Storm/javascript/jquery/sass/style.scss */
 .task2 {
   display: flex;
   justify-content: space-around;
+}
+
+/* line 30, /home/evaldas/Projektai PHP Storm/javascript/jquery/sass/style.scss */
+.task3 {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* line 35, /home/evaldas/Projektai PHP Storm/javascript/jquery/sass/style.scss */
+.yellow-ball {
+  background-color: #ffff00;
 }
 
 /*# sourceMappingURL=../css/style.map */
